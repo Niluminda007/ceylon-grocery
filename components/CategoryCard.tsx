@@ -14,12 +14,13 @@ const CategoryCard = ({ name, products }: CategoryCardProps) => {
       </h2>
       {products.length > 0 && (
         <div className="w-full flex flex-col gap-4 px-4">
-          {products.map(({ name, price, weight }, index) => (
+          {products.map(({ name, price, weight, inStock }, index) => (
             <ProductItem
               key={index}
               name={name}
               price={price}
               weight={weight}
+              availability={inStock}
             />
           ))}
         </div>

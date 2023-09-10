@@ -32,3 +32,52 @@ body {
     rgb(var(--background-start-rgb)); */
   background: black;
 }
+
+/* .product-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.product-table {
+  width: 100%;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.product-table,
+th {
+  text-align: left;
+  height: 50px;
+  margin: 0 0 20px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+} */
+
+/* .product-table-heading-row {
+  background-color: #5bfb23;
+  padding: 10px;
+  font-weight: 700;
+} */
+
+/* .product-table-heading-row,
+th {
+  padding: 10px;
+} */
+
+/* .product-table,
+tbody {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.product-table,
+td {
+  font-size: 1.1rem;
+  padding: 10px;
+  color: white;
+} */
