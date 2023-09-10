@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { AiOutlineCheck, AiOutlineClose } from "react-icons/ai";
 
 type InStockProps = {
-  id: string;
+  id?: string;
   availability: boolean;
 };
 
