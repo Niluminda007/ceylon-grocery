@@ -11,7 +11,7 @@ const CategoryArea = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("/api/fetch-products")
+    fetch("/api/fetch-products", { cache: "no-store" })
       .then((response) => response.json())
       .then((data) => {
         if (data && data.data) {
