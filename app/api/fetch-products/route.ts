@@ -4,7 +4,7 @@ import { connectToDB } from "@/utils/database";
 export const dynamic = "force-dynamic";
 export async function GET() {
   try {
-    const categories = ["Spices", "Biscuits", "Other Products"];
+    const categories = ["Spices", "Biscuits",  "Packaged Foods", "Other Products"];
     await connectToDB();
     const products = [];
     for (const category of categories) {
