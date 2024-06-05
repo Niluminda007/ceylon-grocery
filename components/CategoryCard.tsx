@@ -8,7 +8,7 @@ type CategoryCardProps = {
 
 const CategoryCard = ({ name, products }: CategoryCardProps) => {
   return (
-    <div className="sm:w-[400px] w-[80%] sm:h-[700px] h-auto bg-white py-4 flex flex-col items-center rounded-xl sm:rounded-3xl gap-4">
+    <div className="sm:w-[400px] w-[80%] sm:h-[800px] h-auto bg-white py-4 flex flex-col items-center rounded-xl sm:rounded-3xl gap-4">
       <h2 className=" max-w-[100%] h-[40px] text-[#5BFB23] text-[1.5rem] font-normal  rounded-2xl p-5 bg-black flex items-center justify-center">
         {name}
       </h2>
